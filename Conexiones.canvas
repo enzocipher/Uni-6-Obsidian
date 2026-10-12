@@ -1,0 +1,771 @@
+{
+  "nodes": [
+    {
+      "id": "group_architecture",
+      "type": "group",
+      "label": "Arquitectura de Ciberseguridad",
+      "x": -100,
+      "y": -410,
+      "width": 2100,
+      "height": 1370,
+      "color": "1"
+    },
+    {
+      "id": "group_processes",
+      "type": "group",
+      "label": "Procesos de Ciberseguridad",
+      "x": 2300,
+      "y": -410,
+      "width": 2100,
+      "height": 1370,
+      "color": "4"
+    },
+    {
+      "id": "overview",
+      "type": "text",
+      "text": "# Arquitectura de Ciberseguridad\n\n**Sesiones 1 a 8 · siete notas**\nArquitectura y negocio → frameworks → riesgo → principios de diseño\nSegmentación → ZTNA / SASE → firewalls, IDS/IPS, NAC e IAM\n\nLas sesiones 7 y 8 comparten una presentación. Revisión: 11 de octubre de 2026.",
+      "x": 0,
+      "y": -320,
+      "width": 1800,
+      "height": 220,
+      "color": "5"
+    },
+    {
+      "id": "s3",
+      "type": "file",
+      "file": "Arquitectura de Ciberseguridad/Gestión de riesgos en arquitectura de seguridad.md",
+      "x": 1000,
+      "y": 0,
+      "width": 420,
+      "height": 340,
+      "color": "1"
+    },
+    {
+      "id": "s4",
+      "type": "file",
+      "file": "Arquitectura de Ciberseguridad/Defensa en Profundidad y Zero Trust.md",
+      "x": 1500,
+      "y": 0,
+      "width": 420,
+      "height": 340,
+      "color": "1"
+    },
+    {
+      "id": "s5",
+      "type": "file",
+      "file": "Arquitectura de Ciberseguridad/Segmentación de Redes y Defensa Perimetral.md",
+      "x": 1500,
+      "y": 500,
+      "width": 420,
+      "height": 340,
+      "color": "2"
+    },
+    {
+      "id": "s6",
+      "type": "file",
+      "file": "Arquitectura de Ciberseguridad/ZTNA y SASE.md",
+      "x": 1000,
+      "y": 500,
+      "width": 420,
+      "height": 340,
+      "color": "2"
+    },
+    {
+      "id": "s2",
+      "type": "file",
+      "file": "Arquitectura de Ciberseguridad/Frameworks de arquitectura de seguridad.md",
+      "x": 500,
+      "y": 0,
+      "width": 420,
+      "height": 340,
+      "color": "1"
+    },
+    {
+      "id": "all_courses",
+      "type": "text",
+      "text": "# The CISO Path\n\n## Cursos y recorridos de estudio\n\nCinco cursos organizados por materia. Cada grupo muestra su índice y la secuencia de clases.\n\nRevisión del aula: 11 de octubre de 2026. Navegar también desde [[Índice de cursos]] y [[Indishe.base|Base de cursos]].",
+      "x": 0,
+      "y": -780,
+      "width": 4350,
+      "height": 230,
+      "color": "5"
+    },
+    {
+      "id": "process_overview",
+      "type": "text",
+      "text": "# Procesos de Ciberseguridad\n\n**Unidad 1: Gobierno y gestión de riesgos**\nProceso de negocio y NIST CSF, Govern e Identify.\n\n**Unidad 2: Zero Trust y protección**\nPrincipios, identidades y dispositivos.\n\nCinco presentaciones publicadas, 143 diapositivas. La sesión 4 corresponde a PC1 y elección de organización, sin presentación independiente.\n\nRevisión: 11 de octubre de 2026. Sin nuevas presentaciones.",
+      "x": 2400,
+      "y": -320,
+      "width": 1800,
+      "height": 220,
+      "color": "4"
+    },
+    {
+      "id": "pc1",
+      "type": "file",
+      "file": "Procesos de Ciberseguridad/Ciberseguridad como proceso de negocio y NIST CSF 2.0.md",
+      "x": 2400,
+      "y": 0,
+      "width": 420,
+      "height": 340,
+      "color": "4"
+    },
+    {
+      "id": "pc2",
+      "type": "file",
+      "file": "Procesos de Ciberseguridad/Govern y Gobierno de Ciberseguridad.md",
+      "x": 2900,
+      "y": 0,
+      "width": 420,
+      "height": 340,
+      "color": "4"
+    },
+    {
+      "id": "pc3",
+      "type": "file",
+      "file": "Procesos de Ciberseguridad/Identify, Activos, Riesgos y Perfil de Madurez.md",
+      "x": 3400,
+      "y": 0,
+      "width": 420,
+      "height": 340,
+      "color": "4"
+    },
+    {
+      "id": "pc5",
+      "type": "file",
+      "file": "Procesos de Ciberseguridad/Zero Trust, Concepto y Principios.md",
+      "x": 3400,
+      "y": 500,
+      "width": 420,
+      "height": 340,
+      "color": "4"
+    },
+    {
+      "id": "pc6",
+      "type": "file",
+      "file": "Procesos de Ciberseguridad/Identidades y Dispositivos en Zero Trust.md",
+      "x": 3900,
+      "y": 500,
+      "width": 420,
+      "height": 340,
+      "color": "4"
+    },
+    {
+      "id": "pc_index",
+      "type": "file",
+      "file": "Procesos de Ciberseguridad/Índice de Procesos de Ciberseguridad.md",
+      "x": 2400,
+      "y": 500,
+      "width": 920,
+      "height": 340,
+      "color": "4"
+    },
+    {
+      "id": "course_index",
+      "type": "file",
+      "file": "Índice de cursos.md",
+      "x": 0,
+      "y": -1190,
+      "width": 4350,
+      "height": 300,
+      "color": "5"
+    },
+    {
+      "id": "arch_index",
+      "type": "file",
+      "file": "Arquitectura de Ciberseguridad/Índice de Arquitectura de Ciberseguridad.md",
+      "x": 0,
+      "y": 500,
+      "width": 420,
+      "height": 340,
+      "color": "1"
+    },
+    {
+      "id": "group_apps",
+      "type": "group",
+      "label": "Seguridad de Integración de Aplicaciones",
+      "x": -100,
+      "y": 1200,
+      "width": 2100,
+      "height": 1870,
+      "color": "3"
+    },
+    {
+      "id": "apps_overview",
+      "type": "text",
+      "text": "# Seguridad de Integración de Aplicaciones\n\n**Unidad 1: comprensión, AS-IS, riesgos y TO-BE**\n**Unidad 2: identidades y protección de datos**\n\nSeis clases, 217 diapositivas. Dinámicas, 29 diapositivas, y simulacro TicketFácil, 18. Revisión: 11 de octubre de 2026.",
+      "x": 0,
+      "y": 1290,
+      "width": 1900,
+      "height": 220,
+      "color": "3"
+    },
+    {
+      "id": "apps_index",
+      "type": "file",
+      "file": "Seguridad de Integración de Aplicaciones/Índice de Seguridad de Integración de Aplicaciones.md",
+      "x": 1500,
+      "y": 1610,
+      "width": 420,
+      "height": 340,
+      "color": "3"
+    },
+    {
+      "id": "apps1",
+      "type": "file",
+      "file": "Seguridad de Integración de Aplicaciones/Fundamentos de Integración de Aplicaciones.md",
+      "x": 0,
+      "y": 1610,
+      "width": 420,
+      "height": 340,
+      "color": "3"
+    },
+    {
+      "id": "apps2",
+      "type": "file",
+      "file": "Seguridad de Integración de Aplicaciones/Arquitecturas y patrones de Integración de Aplicaciones.md",
+      "x": 500,
+      "y": 1610,
+      "width": 420,
+      "height": 340,
+      "color": "3"
+    },
+    {
+      "id": "apps3",
+      "type": "file",
+      "file": "Seguridad de Integración de Aplicaciones/Riesgos y vulnerabilidades en integraciones.md",
+      "x": 1000,
+      "y": 1610,
+      "width": 420,
+      "height": 340,
+      "color": "3"
+    },
+    {
+      "id": "apps4",
+      "type": "file",
+      "file": "Seguridad de Integración de Aplicaciones/Security by Design y arquitectura TO BE.md",
+      "x": 0,
+      "y": 2110,
+      "width": 420,
+      "height": 340,
+      "color": "3"
+    },
+    {
+      "id": "apps5",
+      "type": "file",
+      "file": "Seguridad de Integración de Aplicaciones/Autenticación, autorización y gestión de identidades en APIs.md",
+      "x": 500,
+      "y": 2110,
+      "width": 420,
+      "height": 340,
+      "color": "3"
+    },
+    {
+      "id": "apps6",
+      "type": "file",
+      "file": "Seguridad de Integración de Aplicaciones/Protección de datos durante la integración.md",
+      "x": 1000,
+      "y": 2110,
+      "width": 420,
+      "height": 340,
+      "color": "3"
+    },
+    {
+      "id": "apps_practice",
+      "type": "file",
+      "file": "Seguridad de Integración de Aplicaciones/Dinámicas de integración, acceso y protección de datos.md",
+      "x": 1500,
+      "y": 2110,
+      "width": 420,
+      "height": 340,
+      "color": "3"
+    },
+    {
+      "id": "group_industrial",
+      "type": "group",
+      "label": "Ciberseguridad en Entornos Industriales y Cloud",
+      "x": 2300,
+      "y": 1200,
+      "width": 2100,
+      "height": 1370,
+      "color": "2"
+    },
+    {
+      "id": "industrial_overview",
+      "type": "text",
+      "text": "# Ciberseguridad en Entornos Industriales y Cloud\n\n**IT / OT → ICS y Purdue → protocolos → amenazas**\n**Zonas → IIoT y acceso remoto → defensa en profundidad**\n\nSiete clases, 371 páginas. Hardening, parches, línea base y recuperación. Revisión: 11 de octubre de 2026.",
+      "x": 2400,
+      "y": 1290,
+      "width": 1900,
+      "height": 220,
+      "color": "2"
+    },
+    {
+      "id": "industrial_index",
+      "type": "file",
+      "file": "Ciberseguridad en Entornos Industriales y Cloud/Índice de Ciberseguridad en Entornos Industriales y Cloud.md",
+      "x": 3900,
+      "y": 1610,
+      "width": 420,
+      "height": 340,
+      "color": "2"
+    },
+    {
+      "id": "industrial1",
+      "type": "file",
+      "file": "Ciberseguridad en Entornos Industriales y Cloud/Introducción a la ciberseguridad industrial, IT y OT.md",
+      "x": 2400,
+      "y": 1610,
+      "width": 420,
+      "height": 340,
+      "color": "2"
+    },
+    {
+      "id": "industrial2",
+      "type": "file",
+      "file": "Ciberseguridad en Entornos Industriales y Cloud/Arquitectura ICS y modelo de Purdue.md",
+      "x": 2900,
+      "y": 1610,
+      "width": 420,
+      "height": 340,
+      "color": "2"
+    },
+    {
+      "id": "industrial3",
+      "type": "file",
+      "file": "Ciberseguridad en Entornos Industriales y Cloud/Protocolos industriales y requisitos de seguridad IEC 62443.md",
+      "x": 3400,
+      "y": 1610,
+      "width": 420,
+      "height": 340,
+      "color": "2"
+    },
+    {
+      "id": "industrial4",
+      "type": "file",
+      "file": "Ciberseguridad en Entornos Industriales y Cloud/Amenazas industriales, casos históricos y modelado de amenazas.md",
+      "x": 2400,
+      "y": 2110,
+      "width": 420,
+      "height": 340,
+      "color": "2"
+    },
+    {
+      "id": "industrial5",
+      "type": "file",
+      "file": "Ciberseguridad en Entornos Industriales y Cloud/Segmentación industrial, zonas, conduits y seguridad funcional.md",
+      "x": 2900,
+      "y": 2110,
+      "width": 420,
+      "height": 340,
+      "color": "2"
+    },
+    {
+      "id": "industrial6",
+      "type": "file",
+      "file": "Ciberseguridad en Entornos Industriales y Cloud/Convergencia IT y OT, IIoT y accesos remotos.md",
+      "x": 3400,
+      "y": 2110,
+      "width": 420,
+      "height": 340,
+      "color": "2"
+    },
+    {
+      "id": "group_info",
+      "type": "group",
+      "label": "Seguridad de la Información",
+      "x": -100,
+      "y": 3300,
+      "width": 2100,
+      "height": 1370,
+      "color": "6"
+    },
+    {
+      "id": "info_overview",
+      "type": "text",
+      "text": "# Seguridad de la Información\n\n**Unidad 1: CIA, gobierno e ISO 27001 / SGSI**\n**Unidad 2: Identify y evaluación de riesgos**\n\nSeis clases publicadas: 115 páginas. Casos ChasquiPay y Costa Azul, SoA, PDCA y análisis NIST / MAGERIT.\n\nRevisión: 11 de octubre de 2026. Semana 7: norma y plantilla, sin presentación.",
+      "x": 0,
+      "y": 3390,
+      "width": 1900,
+      "height": 220,
+      "color": "6"
+    },
+    {
+      "id": "info_index",
+      "type": "file",
+      "file": "Seguridad de la Información/Índice de Seguridad de la Información.md",
+      "x": 1500,
+      "y": 3710,
+      "width": 420,
+      "height": 340,
+      "color": "6"
+    },
+    {
+      "id": "info1",
+      "type": "file",
+      "file": "Seguridad de la Información/Fundamentos de Seguridad de la Información y triada CIA.md",
+      "x": 0,
+      "y": 3710,
+      "width": 420,
+      "height": 340,
+      "color": "6"
+    },
+    {
+      "id": "info2",
+      "type": "file",
+      "file": "Seguridad de la Información/Gobierno de TI, rol del CISO y familia ISO 27000.md",
+      "x": 500,
+      "y": 3710,
+      "width": 420,
+      "height": 340,
+      "color": "6"
+    },
+    {
+      "id": "info3",
+      "type": "file",
+      "file": "Seguridad de la Información/Contexto, liderazgo y planificación del SGSI.md",
+      "x": 1000,
+      "y": 3710,
+      "width": 420,
+      "height": 340,
+      "color": "6"
+    },
+    {
+      "id": "info4",
+      "type": "file",
+      "file": "Seguridad de la Información/Operación, evaluación y mejora continua del SGSI.md",
+      "x": 0,
+      "y": 4210,
+      "width": 420,
+      "height": 340,
+      "color": "6"
+    },
+    {
+      "id": "info5",
+      "type": "file",
+      "file": "Seguridad de la Información/Fundamentos de riesgos y función Identify de NIST CSF.md",
+      "x": 500,
+      "y": 4210,
+      "width": 420,
+      "height": 340,
+      "color": "6"
+    },
+    {
+      "id": "info6",
+      "type": "file",
+      "file": "Seguridad de la Información/Análisis de riesgos con NIST SP 800 30 y MAGERIT.md",
+      "x": 1000,
+      "y": 4210,
+      "width": 420,
+      "height": 340,
+      "color": "6"
+    },
+    {
+      "id": "group_shared",
+      "type": "group",
+      "label": "Relaciones entre cursos",
+      "x": 2300,
+      "y": 3300,
+      "width": 2100,
+      "height": 1370,
+      "color": "5"
+    },
+    {
+      "id": "shared_concepts",
+      "type": "text",
+      "x": 2400,
+      "y": 3390,
+      "width": 1900,
+      "height": 1190,
+      "color": "5",
+      "text": "# Conceptos compartidos\n\n## Gobierno y negocio\n[[Introducción a la Arquitectura de Ciberseguridad]]\n[[Govern y Gobierno de Ciberseguridad]]\n[[Gobierno de TI, rol del CISO y familia ISO 27000]]\n[[Fundamentos de Integración de Aplicaciones]]\n\n## Activos y riesgo\n[[Gestión de riesgos en arquitectura de seguridad]]\n[[Identify, Activos, Riesgos y Perfil de Madurez]]\n[[Análisis de riesgos con NIST SP 800 30 y MAGERIT]]\n[[Riesgos y vulnerabilidades en integraciones]]\n\n## Diseño seguro y segmentación\n[[Defensa en Profundidad y Zero Trust]]\n[[Security by Design y arquitectura TO BE]]\n[[Segmentación de Redes y Defensa Perimetral]]\n[[Segmentación industrial, zonas, conduits y seguridad funcional]]\n\n## Identidades y acceso\n[[Firewalls, IDS IPS, NAC e identidad y gestión de accesos]]\n[[Identidades y Dispositivos en Zero Trust]]\n[[Autenticación, autorización y gestión de identidades en APIs]]\n[[ZTNA y SASE]]\n[[Convergencia IT y OT, IIoT y accesos remotos]]\n\n## Continuidad y recuperación\n[[Defensa en profundidad OT, hardening y recuperación]]\n\n## Protección de información\n[[Fundamentos de Seguridad de la Información y triada CIA]]\n[[Protección de datos durante la integración]]\n\nLos enlaces permiten estudiar un mismo concepto desde procesos, arquitectura, información, aplicaciones y entornos industriales."
+    },
+    {
+      "id": "s1",
+      "type": "file",
+      "file": "Arquitectura de Ciberseguridad/Introducción a la Arquitectura de Ciberseguridad.md",
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 340,
+      "color": "4"
+    },
+    {
+      "id": "s78",
+      "type": "file",
+      "file": "Arquitectura de Ciberseguridad/Firewalls, IDS IPS, NAC e identidad y gestión de accesos.md",
+      "x": 500,
+      "y": 500,
+      "width": 420,
+      "height": 340,
+      "color": "4"
+    },
+    {
+      "id": "industrial7",
+      "type": "file",
+      "file": "Ciberseguridad en Entornos Industriales y Cloud/Defensa en profundidad OT, hardening y recuperación.md",
+      "x": 3900,
+      "y": 2110,
+      "width": 420,
+      "height": 340,
+      "color": "2"
+    },
+    {
+      "id": "apps_simulacro",
+      "type": "file",
+      "file": "Seguridad de Integración de Aplicaciones/Simulacro de evaluación parcial, caso TicketFácil.md",
+      "x": 0,
+      "y": 2610,
+      "width": 920,
+      "height": 340,
+      "color": "3"
+    },
+    {
+      "id": "apps_practice_route",
+      "type": "text",
+      "x": 1000,
+      "y": 2610,
+      "width": 920,
+      "height": 340,
+      "color": "3",
+      "text": "# Prácticas para integrar las clases\n\n[[Dinámicas de integración, acceso y protección de datos]]\nMediTurno, Mi Web de Seguros y Banco Nova.\n\n[[Simulacro de evaluación parcial, caso TicketFácil]]\nAS-IS → R1 → D1 → API crítica → AuthN/AuthZ → datos → TO-BE.\n\nCompletar primero las plantillas y después comparar con las respuestas referenciales."
+    }
+  ],
+  "edges": [
+    {
+      "id": "e23",
+      "fromNode": "s2",
+      "fromSide": "right",
+      "toNode": "s3",
+      "toSide": "left",
+      "label": "marcos y métodos"
+    },
+    {
+      "id": "e34",
+      "fromNode": "s3",
+      "fromSide": "right",
+      "toNode": "s4",
+      "toSide": "left",
+      "label": "riesgo a diseño"
+    },
+    {
+      "id": "e45",
+      "fromNode": "s4",
+      "fromSide": "bottom",
+      "toNode": "s5",
+      "toSide": "top",
+      "label": "principios a fronteras"
+    },
+    {
+      "id": "e56",
+      "fromNode": "s5",
+      "fromSide": "left",
+      "toNode": "s6",
+      "toSide": "right",
+      "label": "segmentos a políticas de acceso"
+    },
+    {
+      "id": "pc12",
+      "fromNode": "pc1",
+      "fromSide": "right",
+      "toNode": "pc2",
+      "toSide": "left",
+      "label": "gobierno del programa"
+    },
+    {
+      "id": "pc23",
+      "fromNode": "pc2",
+      "fromSide": "right",
+      "toNode": "pc3",
+      "toSide": "left",
+      "label": "activos y riesgos"
+    },
+    {
+      "id": "pc35",
+      "fromNode": "pc3",
+      "fromSide": "bottom",
+      "toNode": "pc5",
+      "toSide": "top",
+      "label": "PC1 en sesión 4; luego Zero Trust"
+    },
+    {
+      "id": "pc56",
+      "fromNode": "pc5",
+      "fromSide": "right",
+      "toNode": "pc6",
+      "toSide": "left",
+      "label": "aplicar a identidad y dispositivo"
+    },
+    {
+      "id": "apps_e12",
+      "fromNode": "apps1",
+      "fromSide": "right",
+      "toNode": "apps2",
+      "toSide": "left",
+      "label": "entender la colaboración",
+      "color": "3"
+    },
+    {
+      "id": "apps_e23",
+      "fromNode": "apps2",
+      "fromSide": "right",
+      "toNode": "apps3",
+      "toSide": "left",
+      "label": "localizar exposición",
+      "color": "3"
+    },
+    {
+      "id": "apps_e34",
+      "fromNode": "apps3",
+      "fromSide": "bottom",
+      "toNode": "apps4",
+      "toSide": "top",
+      "label": "riesgo a decisión",
+      "color": "3"
+    },
+    {
+      "id": "apps_e45",
+      "fromNode": "apps4",
+      "fromSide": "right",
+      "toNode": "apps5",
+      "toSide": "left",
+      "label": "controlar quién y qué",
+      "color": "3"
+    },
+    {
+      "id": "apps_e56",
+      "fromNode": "apps5",
+      "fromSide": "right",
+      "toNode": "apps6",
+      "toSide": "left",
+      "label": "proteger lo que circula",
+      "color": "3"
+    },
+    {
+      "id": "industrial_e12",
+      "fromNode": "industrial1",
+      "fromSide": "right",
+      "toNode": "industrial2",
+      "toSide": "left",
+      "label": "componentes y jerarquía",
+      "color": "2"
+    },
+    {
+      "id": "industrial_e23",
+      "fromNode": "industrial2",
+      "fromSide": "right",
+      "toNode": "industrial3",
+      "toSide": "left",
+      "label": "comunicación y requisitos",
+      "color": "2"
+    },
+    {
+      "id": "industrial_e34",
+      "fromNode": "industrial3",
+      "fromSide": "bottom",
+      "toNode": "industrial4",
+      "toSide": "top",
+      "label": "escenarios de amenaza",
+      "color": "2"
+    },
+    {
+      "id": "industrial_e45",
+      "fromNode": "industrial4",
+      "fromSide": "right",
+      "toNode": "industrial5",
+      "toSide": "left",
+      "label": "contener y separar",
+      "color": "2"
+    },
+    {
+      "id": "industrial_e56",
+      "fromNode": "industrial5",
+      "fromSide": "right",
+      "toNode": "industrial6",
+      "toSide": "left",
+      "label": "conectar de forma controlada",
+      "color": "2"
+    },
+    {
+      "id": "info_e12",
+      "fromNode": "info1",
+      "fromSide": "right",
+      "toNode": "info2",
+      "toSide": "left",
+      "label": "responsabilidad y gobierno",
+      "color": "6"
+    },
+    {
+      "id": "info_e23",
+      "fromNode": "info2",
+      "fromSide": "right",
+      "toNode": "info3",
+      "toSide": "left",
+      "label": "planificar el SGSI",
+      "color": "6"
+    },
+    {
+      "id": "info_e34",
+      "fromNode": "info3",
+      "fromSide": "bottom",
+      "toNode": "info4",
+      "toSide": "top",
+      "label": "operar y mejorar",
+      "color": "6"
+    },
+    {
+      "id": "info_e45",
+      "fromNode": "info4",
+      "fromSide": "right",
+      "toNode": "info5",
+      "toSide": "left",
+      "label": "identificar activos y riesgos",
+      "color": "6"
+    },
+    {
+      "id": "info_e56",
+      "fromNode": "info5",
+      "fromSide": "right",
+      "toNode": "info6",
+      "toSide": "left",
+      "label": "evaluar y priorizar",
+      "color": "6"
+    },
+    {
+      "id": "e12",
+      "fromNode": "s1",
+      "toNode": "s2",
+      "fromSide": "right",
+      "toSide": "left",
+      "label": "negocio y marcos",
+      "color": "4"
+    },
+    {
+      "id": "e678",
+      "fromNode": "s6",
+      "toNode": "s78",
+      "fromSide": "left",
+      "toSide": "right",
+      "label": "controles de red e identidad",
+      "color": "4"
+    },
+    {
+      "id": "industrial_e67",
+      "fromNode": "industrial6",
+      "toNode": "industrial7",
+      "fromSide": "right",
+      "toSide": "left",
+      "label": "endurecer y recuperar",
+      "color": "2"
+    },
+    {
+      "id": "apps_to_simulacro",
+      "fromNode": "apps6",
+      "fromSide": "bottom",
+      "toNode": "apps_simulacro",
+      "toSide": "top",
+      "label": "integrar en TicketFácil",
+      "color": "3"
+    }
+  ]
+}

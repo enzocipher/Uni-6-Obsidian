@@ -1,0 +1,7 @@
+# Archivos temporales del sistema operativo y papelera local
+.DS_Store
+Thumbs.db
+Desktop.ini
+.Trash/
+
+# La configuración, los temas y los plugins de .obsidian se incluyen.

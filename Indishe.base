@@ -1,0 +1,79 @@
+filters:
+  and:
+    - materia != null
+views:
+  - type: table
+    name: Sesiones
+    filters:
+      and:
+        - sesion != null
+    order:
+      - materia
+      - unidad
+      - sesion
+      - sesion_hasta
+      - file.name
+      - ciclo
+      - diapositivas
+      - actualizado
+    sort:
+      - property: materia
+        direction: ASC
+      - property: unidad
+        direction: ASC
+      - property: sesion
+        direction: ASC
+  - type: cards
+    name: Cursos
+    filters:
+      and:
+        - tipo == "indice"
+    order:
+      - materia
+      - file.name
+      - ciclo
+      - codigo_curso
+      - actualizado
+    sort:
+      - property: materia
+        direction: ASC
+      - property: unidad
+        direction: ASC
+      - property: sesion
+        direction: ASC
+  - type: table
+    name: Prácticas
+    filters:
+      and:
+        - tipo == "practica"
+    order:
+      - materia
+      - file.name
+      - unidad
+      - semana
+      - ciclo
+      - diapositivas
+      - actualizado
+    sort:
+      - property: materia
+        direction: ASC
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: Todo el material
+    order:
+      - materia
+      - file.name
+      - tipo
+      - unidad
+      - sesion
+      - sesion_hasta
+      - ciclo
+      - actualizado
+    sort:
+      - property: materia
+        direction: ASC
+      - property: unidad
+        direction: ASC
+      - property: sesion
+        direction: ASC
